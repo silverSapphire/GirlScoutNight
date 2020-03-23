@@ -38,7 +38,7 @@ void setup() {
  
 void loop() {
 
-  if(inches1 < 10)
+  if(inches1 < 10)  /ADJUST SENSITIVITY HERE!!!!!!!!!!!!!!!!!!!!
   {
     servo.write(180);
   }
